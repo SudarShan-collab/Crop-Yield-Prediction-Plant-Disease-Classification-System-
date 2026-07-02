@@ -1,0 +1,8 @@
+{
+  "name": "Smart Agriculture Assistant",
+  "description": "Smart Agriculture Assistant: Crop Yield Prediction and Plant Disease Classification System. Features crop yield analysis, leaf disease identification, prediction history, and full BCA project documentation.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
