@@ -1,4 +1,4 @@
-# 🌾 Crop Yield Prediction & Plant Disease Classification System
+# 🌾 AgriSmart Assistant — Crop Yield Prediction & Plant Disease Classification System
 
 An AI-powered agricultural decision-support web app that predicts crop yield from soil and weather data and detects plant diseases from leaf images — built to help farmers make faster, data-driven decisions without needing lab access or expert consultation.
 
