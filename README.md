@@ -22,9 +22,28 @@ Small-scale farmers often lack access to soil testing labs or expert diagnosis, 
 |---|---|
 | Frontend | TypeScript, Vite |
 | Backend | Node.js (`server.ts`, `dbServer.ts`) |
-| AI/ML | Google Gemini API, supplementary Python scripts |
+| AI/ML | Google Gemini API, Open-Meteo API, supplementary Python scripts |
 | Data | `database_scripts/`, `dataset_folder/`, `models/` |
 
+## APIs Used
+
+This application integrates two external APIs to power its real-time agricultural recommendations and plant disease diagnostics:
+
+### 1. Google Gemini API (via `@google/genai` SDK)
+- **Model:** `gemini-3.5-flash`
+- **Purpose:** Powers the Photo Plant Disease Classifier module.
+- **How it works:** When a user uploads a photo of a plant leaf, the app sends the image to the Gemini model with a structured pathology prompt. The model analyzes the leaf specimen to identify the crop and any pathology, returning a diagnosis in a structured JSON payload, including:
+  - Crop and disease identification
+  - Diagnostic confidence score (50%–100%)
+  - Scientific description of the pathogen
+  - Actionable treatment steps and preventive guidelines
+
+### 2. Open-Meteo API (Free Public Access)
+Two Open-Meteo services provide localized real-time weather data:
+- **Geocoding API** (`geocoding-api.open-meteo.com`) — converts a user-entered city or location name into precise latitude/longitude coordinates.
+- **Weather Forecast API** (`api.open-meteo.com`) — retrieves current temperature, relative humidity, and rainfall totals for those coordinates. This data feeds directly into the crop recommendation engine to calculate regional soil-to-crop compatibility.
+
+  
 ## Project Structure
 
 ```
