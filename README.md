@@ -47,7 +47,7 @@ Two Open-Meteo services provide localized real-time weather data:
 ## Project Structure
 
 ```
-Crop-Yield-Prediction-Plant-Disease-Classification-System/
+AgriSmart Assistant — Crop Yield Prediction & Plant Disease Classification System/
 ├── src/                  # Frontend TypeScript source
 ├── database_scripts/     # Database setup / query scripts
 ├── dataset_folder/       # Reference dataset(s)
