@@ -2,7 +2,7 @@
 
 An AI-powered agricultural decision-support web app that predicts crop yield from soil and weather data and detects plant diseases from leaf images — built to help farmers make faster, data-driven decisions without needing lab access or expert consultation.
 
-**Live app:** https://ai.studio/apps/b436d6d8-256d-4925-b350-97181ab6ad80
+**Live app:** https://smart-agriculture-assistant-908348504630.asia-southeast1.run.app
 
 ## Overview
 
