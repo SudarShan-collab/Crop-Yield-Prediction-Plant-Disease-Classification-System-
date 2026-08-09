@@ -1,8 +1,22 @@
 {
-  "name": "react-example",
+  "name": "smart-agriculture-assistant",
+  "version": "1.0.0",
+  "description": "AI-Powered Smart Agriculture Assistant: Crop Yield Prediction ML Engine, Gemini Leaf Disease Classifier, and Live Weather Diagnostics",
   "private": true,
-  "version": "0.0.0",
   "type": "module",
+  "license": "MIT",
+  "keywords": [
+    "agriculture",
+    "crop-recommendation",
+    "yield-prediction",
+    "gemini-ai",
+    "plant-disease-classification",
+    "machine-learning",
+    "express",
+    "react",
+    "tailwindcss",
+    "open-meteo"
+  ],
   "scripts": {
     "dev": "tsx server.ts",
     "build": "vite build && esbuild server.ts --bundle --platform=node --format=cjs --packages=external --sourcemap --outfile=dist/server.cjs",
